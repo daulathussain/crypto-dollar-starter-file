@@ -1,0 +1,274 @@
+    /*******************************
+   	All Responsive Code
+   *******************************/
+
+    @media (min-width: 2401px) {}
+
+    @media (max-width: 2400px) {}
+
+    @media (max-width: 1920px) {}
+
+    @media (max-width: 1399px) {
+        .contact .sape {
+            right: -10%;
+        }
+        .banner {
+            background: linear-gradient(0deg, rgb(235, 232, 255) 0%, rgb(126, 138, 255) 100%);
+        }
+        .banner .bg {
+            display: none;
+        }
+    }
+
+    @media (max-width: 1199px) {
+        #scrollUp {
+            right: 0%;
+        }
+        .mein-menu .navbar #navbarNavDropdown ul.navbar-nav li.nav-item {
+            margin-left: 20px;
+        }
+        .banner .hero-area .orderr .top-content,
+        .banner .hero-area .orderr .imput-box,
+        .banner .hero-area .orderr .last-box,
+        .currency .card-cox {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+        .banner .hero-area .orderr .top-content .button-box,
+        .banner .hero-area .orderr .last-box .rating {
+            margin-top: 10px;
+        }
+        .banner .hero-area .orderr .imput-box h6.rate,
+        .banner .hero-area .orderr .imput-box .exchange {
+            padding: 15px 0px 15px;
+        }
+        .banner .hero-area .orderr .imput-box a.button-2 {
+            margin-top: 30px;
+        }
+        .currency .card-cox .right-box .button-box {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+        }
+        .testimonial .video .v-bg {
+            width: 74%;
+        }
+        .testimonial .about-testimonial .client {
+            position: relative;
+        }
+        .testimonial .about-testimonial .client.one,
+        .testimonial .about-testimonial .client.two,
+        .testimonial .about-testimonial .client.three,
+        .testimonial .about-testimonial .client.four,
+        .testimonial .about-testimonial .client.five,
+        .testimonial .about-testimonial .client.six {
+            top: auto;
+            left: auto;
+            right: auto;
+            bottom: auto;
+            width: 50%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+        .testimonial .about-testimonial {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+        .contact .sape {
+            display: none;
+        }
+        .contact .right-box {
+            padding-top: 40px;
+        }
+        .contact {
+            padding: 0px 0px 115px;
+        }
+        .contact .left-box {
+            padding: 115px 40px 40px;
+        }
+        .footer .footer-box h4.lasthead {
+            margin-top: 30px;
+            padding-bottom: 0px;
+        }
+    }
+
+    @media (max-width: 991px) {
+        .mein-menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: -webkit-linear-gradient(45deg, rgba(144, 62, 255, 1) 0%, rgba(62, 25, 255, 1) 100%);
+            background: linear-gradient(45deg, rgba(144, 62, 255, 1) 0%, rgba(62, 25, 255, 1) 100%);
+            box-shadow: 3.801px 12.432px 24px 0px rgb(150 131 225 / 40%);
+            z-index: 99999;
+            padding: 10px 0 10px;
+        }
+        .mein-menu .navbar .navbar-toggler:focus {
+            box-shadow: 0;
+        }
+        .mein-menu .navbar #navbarNavDropdown ul.navbar-nav {
+            height: 350px;
+            overflow: auto;
+        }
+        .mein-menu .navbar #navbarNavDropdown ul.navbar-nav {
+            margin-left: auto;
+            -webkit-box-align: start;
+            -ms-flex-align: start;
+            -ms-grid-row-align: flex-start;
+            align-items: flex-start;
+        }
+        .mein-menu .navbar #navbarNavDropdown ul.navbar-nav li.nav-item {
+            margin-left: 0;
+            margin-top: 10px;
+        }
+        .mein-menu .navbar #navbarNavDropdown ul.navbar-nav li.nav-item a.nav-link:before {
+            top: calc(100% + 0px);
+        }
+        h1.head {
+            font-size: 50px;
+            line-height: 60px;
+        }
+        h2.title {
+            font-size: 35px;
+            line-height: 45px;
+        }
+        .currency .card-cox .left-box h3.card-name,
+        .contact .right-box h3.quetion {
+            font-size: 28px;
+            line-height: 38px;
+        }
+        .banner .hero-area .orderr .top-content .button-box .nav-link {
+            margin-top: 20px;
+        }
+        .banner .hero-area .orderr .top-content .button-box .nav {
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+        }
+        .banner {
+            padding: 200px 0px 60px;
+        }
+        .footer .footer-bottom {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+        }
+        .footer .footer-box,
+        .footer .footer-box .social-style {
+            text-align: center;
+        }
+        .footer .footer-bottom .social-style {
+            margin-bottom: 15px;
+        }
+        #scrollUp {
+            display: none;
+            opacity: 0;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .currency .card-cox .left-box .point {
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+        .buy-money {
+            background: none !important;
+        }
+        .buy-money .money-box {
+            overflow: auto;
+        }
+        .buy-money .responsive {
+            width: 768px;
+        }
+        .testimonial .video {
+            padding: 0px;
+            min-height: 350px;
+        }
+        .testimonial .about-testimonial .client.one,
+        .testimonial .about-testimonial .client.two,
+        .testimonial .about-testimonial .client.three,
+        .testimonial .about-testimonial .client.four,
+        .testimonial .about-testimonial .client.five,
+        .testimonial .about-testimonial .client.six {
+            width: 100%;
+        }
+        .contact .right-box .box {
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+        .banner {
+            background-size: cover;
+            background-position: top center;
+        }
+        .buy-money {
+            background: none !important;
+        }
+    }
+
+    @media (max-width: 575px) {
+        .currency .card-cox .left-box .point .item:after {
+            display: none;
+        }
+        .currency .card-cox .right-box .button-box {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+        .currency .card-cox .right-box button.button-2.two {
+            margin-left: 0px;
+            margin-top: 30px;
+        }
+        .contact .left-box .input-box .form-check #checkk,
+        .banner .hero-area .orderr .last-box .form-check input.check {
+            width: 34px;
+        }
+        .currency .card-cox .left-box .point .item {
+            width: 100%;
+        }
+        .currency .card-cox .left-box {
+            text-align: center;
+        }
+        .contact .left-box {
+            padding: 115px 10px 40px;
+        }
+    }
+
+    @media (max-width: 414px) {
+        .banner .hero-area .orderr .last-box .rating {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+        .banner .plane,
+        .banner .balone,
+        .banner .balone-2 {
+            display: none;
+        }
+    }
+
+    @media (max-width: 360px) {}

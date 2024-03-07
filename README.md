@@ -12,7 +12,7 @@ Learn how to create and launch your very own decentralized finance (DeFi) decent
 
 Kindly follow the following Instructions to run the project in your system and install the necessary requirements
 
-- [Final Source Code](https://www.theblockchaincoders.com/sourceCode/build-chatgpt-web3-clone-dapp)
+- [Final Source Code](https://www.theblockchaincoders.com/sourceCode/crypto-investment-defi-dapp)
 
 #### Setup Video
 
